@@ -1,0 +1,38 @@
+/* mobile styles  */
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px 12px;
+	background-color: #26529c;
+	width: 100%;
+}
+.navbar__left > img {
+	width: 65%;
+	object-fit: contain;
+	border-radius: 5px;
+}
+.navbar__right {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+
+.bar {
+	height: 3px;
+	width: 30px;
+	background-color: lightgray;
+	margin: 3px;
+}
+
+/* small tablet styles */
+@media screen and (min-width: 620px) {
+}
+
+/* large tablet & laptop styles */
+@media screen and (min-width: 960px) {
+}
+
+/* desktop styles */
+@media screen and (min-width: 1200px) {
+}
