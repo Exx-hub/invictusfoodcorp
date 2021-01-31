@@ -1,0 +1,33 @@
+.overview {
+	/* height: 100vh; */
+
+	text-align: center;
+	/* padding: 10px; */
+
+	background-color: rgb(240, 240, 240);
+	/* background-color: var(--headings); */
+
+	background-color: rgb(223, 221, 221);
+}
+
+.overview > h2 {
+	font-size: 1.6em;
+	font-weight: 500;
+	padding: 20px;
+
+	color: var(--headings);
+	/* color: var(--yellow); */
+}
+
+.overview__cards {
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (min-width: 800px) {
+	.overview__cards {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+}

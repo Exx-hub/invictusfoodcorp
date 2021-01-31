@@ -1,3 +1,95 @@
-.home > img {
-	width: 100%;
+.home {
+	/* height: 100vh; */
+	background: url("../images/blueBanner.jpg");
+	position: relative;
+
+	/* option 1 */
+	height: 40vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left center;
+
+	/* option 2 */
+	/* background-size: contain;
+	background-position: top center; */
+
+	/* fix this  */
+	margin-top: 10vh;
+}
+
+.home__text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.home__text > h2 {
+	font-size: 1.4em;
+	color: var(--yellow);
+	text-shadow: 1px 2px 0px black;
+	width: 320px;
+	margin-top: 10px;
+}
+.home__text > button {
+	padding: 5px;
+	border-radius: 3px;
+	min-width: 100px;
+	margin: 10px 5px 5px 5px;
+	font-family: "Poppins", sans-serif;
+	color: var(--yellow);
+	border: 1px solid var(--yellow);
+	font-weight: 500;
+	font-size: 0.8em;
+
+	background-color: var(--blue2);
+	background-color: rgba(4, 4, 167, 0.842);
+	cursor: pointer;
+}
+.home__text a {
+	text-decoration: none;
+	font-family: "Poppins", sans-serif;
+	color: var(--yellow);
+}
+
+@media screen and (min-width: 360px) {
+	.home__text > h2 {
+		font-size: 1.8em;
+		color: var(--yellow);
+		text-shadow: 1px 2px 0px black;
+		width: 320px;
+	}
+}
+
+@media screen and (min-width: 980px) {
+	.home {
+		height: 100vh;
+		background: url("../images/blueBanner.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.home__text {
+		max-width: 740px;
+
+		/* left: 5%;
+		top: 30%;
+		transform: translate(0, 0); */
+	}
+	.home__text > h2 {
+		font-size: 3em;
+		width: auto;
+	}
+	.home__text > button {
+		min-width: 150px;
+		font-size: 0.9em;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.home__text {
+		left: 5%;
+		top: 30%;
+		transform: translate(0, 0);
+	}
 }

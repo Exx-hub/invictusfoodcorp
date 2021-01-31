@@ -1,0 +1,160 @@
+.careers {
+	background-color: rgb(223, 221, 221);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+
+	/* fix this  */
+	margin-top: 5vh;
+	min-height: 100vh;
+	/* height: 100vh; */
+}
+.careers h2 {
+	font-weight: 500;
+}
+
+.careers__list > h2 {
+	color: var(--headings);
+	/* padding: 10px; */
+	align-self: center;
+	margin: 10px;
+	margin-top: 50px;
+}
+.careers__list {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	margin: 20px 0 10px 0;
+}
+
+.careers__list > ul {
+	padding: 10px;
+	list-style-type: none;
+	background-color: white;
+	border: 1px solid var(--blue2);
+	border-radius: 3px;
+	text-align: center;
+}
+.careers__list li {
+	color: var(--blue);
+	font-family: "Montserrat", sans-serif;
+	padding: 5px;
+	font-weight: 500;
+}
+
+.careers__form {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0 36px 0;
+}
+.careers__form > h2 {
+	color: var(--headings);
+	align-self: center;
+	margin: 15px;
+}
+
+.careers__form--container {
+	padding: 10px;
+	background-color: white;
+	border: 1px solid var(--blue2);
+	border-radius: 3px;
+}
+.careers__form p {
+	color: var(--blue);
+}
+
+.careers__form form {
+	display: flex;
+	flex-direction: column;
+	/* width: 250px; */
+	padding: 5px;
+	margin: 0 auto;
+}
+
+.careers__form form > input {
+	border: none;
+	border-bottom: 1px solid gray;
+	padding: 10px;
+	margin: 5px;
+}
+
+.careers__form form > button {
+	background-color: var(--blue2);
+	color: white;
+	border: none;
+	outline: none;
+	padding: 8px 0;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.contactForm__number::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.contactForm__number {
+	-moz-appearance: textfield;
+}
+.link {
+	font-size: 0.7em;
+	width: 90%;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 620px) {
+	.careers {
+		margin-top: 6vh;
+	}
+	.careers__list {
+		width: 80%;
+	}
+	.careers__form {
+		width: 80%;
+	}
+}
+@media screen and (min-width: 760px) {
+	.careers__list {
+		width: 70%;
+	}
+	.careers__form {
+		width: 70%;
+	}
+	.careers h2 {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.careers {
+		margin-top: 8vh;
+	}
+	.careers__list {
+		width: 55%;
+	}
+	.careers__form {
+		width: 55%;
+	}
+	.careers h2 {
+		font-size: 1.6em;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.careers {
+		margin-top: 12vh;
+	}
+	.careers__list {
+		width: 45%;
+		margin: 0;
+	}
+	.careers__form {
+		width: 45%;
+	}
+	.careers h2 {
+		font-size: 1.7em;
+	}
+}

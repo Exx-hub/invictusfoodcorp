@@ -1,0 +1,66 @@
+.overviewCard {
+	overflow: hidden;
+	width: 80%;
+
+	margin: 0px auto 50px auto;
+	border-radius: 8px;
+	box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+
+	border: 1px solid var(--yellow);
+	border: 1px solid lightgray;
+	background-color: rgb(240, 240, 240);
+}
+
+.overviewCard > img {
+	width: 100%;
+	/* transform: scale(1.1); */
+}
+
+.overviewCard__bottom {
+	padding: 10px;
+	background-color: rgb(240, 240, 240);
+}
+
+.overviewCard__bottom > h2 {
+	color: var(--yellow);
+
+	color: var(--headings);
+}
+
+.overviewCard__bottom > p {
+	font-size: 0.7em;
+	text-decoration: underline;
+
+	color: lightgray;
+	color: var(--blue2);
+	cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+	.overviewCard {
+		width: 65%;
+	}
+}
+
+@media screen and (min-width: 620px) {
+	.overviewCard {
+		width: 60%;
+	}
+}
+
+@media screen and (min-width: 730px) {
+	.overviewCard {
+		width: 55%;
+	}
+}
+
+/* large tablet & laptop styles */
+@media screen and (min-width: 800px) {
+	.overviewCard {
+		width: 30%;
+	}
+}
+
+/* desktop styles */
+@media screen and (min-width: 1200px) {
+}
