@@ -45,7 +45,6 @@ function SidebarSlide({ show, toggle, setShow }) {
 				<div className="sidebarSlide__bottom">
 					<div className="sidebarSlide__bottom--logo">
 						<img src={final} alt="logo" />
-						{/* <p>FB</p> */}
 					</div>
 					<p> © 2021 Invictus Food Products Corp.</p>
 					<p> All rights reserved.</p>
